@@ -33,6 +33,7 @@ class KomaList {
     return null;
   }
 
+
   void select(int x, int y) {
     AbstractKoma koma = this.getKomaFromPlaceByTeam(x, y, gs.turn);
     if (koma != null) koma.kStat.selected=true;
